@@ -44,7 +44,6 @@
 | 社保       | awsl        | Everyone | !社保       | False        | 发一张社保的表情包或者吐槽信息           |
 | votekick | None        | Everyone | !votekick | False        | 沙雕功能……                    |
 | otsukare | 辛苦了、おつかれ    | Everyone | !辛苦了      | False        | 发一张辛苦了的图                  |
-| otsukare | 辛苦了、おつかれ    | Everyone | !辛苦了      | False        | 发一张辛苦了的图                  |
 
 ### 游戏类
 
@@ -110,3 +109,12 @@
 | 嘴臭一个    | 骂我、你再骂、小嘴抹蜜 | Everyone  | !嘴臭一个                    | False        | 机器人嘴臭                               |
 | 彩虹屁     | 拍个马屁、舔TA    | Everyone  | !彩虹屁 `Optional: [CQ:at]` | False        | 发送彩虹屁信息，如果有at人，会at那个人然后发彩虹屁信息       |
 | 下源      | None        | Everyone  | !下源                      | False        | 下载所提供的YouTube视频                     |
+
+### 自动功能
+|         | 备注 |
+| ------- | ----------------------------------- |
+| getTweet | 自动跟推 |
+| forDownload | 自动下源，代码请见[这里](https://github.com/remiliacn/Vtuber-YouTube) |
+| getPCRInfo | 自动查询PCR消息 |
+| youtubeNotify | 如果下好了视频提醒 |
+| fillSanity | 每50秒补充一次理智 |
