@@ -20,7 +20,7 @@
 | 删除管理  | None | Owner     | !删除管理 `QQ号`  | False        | None                               |
 | 救救bot | None | Everyone  | !救救bot `str` | True         | 目前被`我懂了`指令替代                       |
 | 救救孩子  | None | Everyone  | !救救孩子 `str`  | True         | 目前被`我懂了`指令替代                       |
-| 我懂了   | None | Owner     | !我懂了 `str`   | False        | 替代了原来的`救救孩子`和`救救bot`指令             |
+| 我懂了   | None | Owner     | !我懂了 `str`   | False        | 替代了原来的`救救孩子`和`救救bot`指令。如果输入为$，将会把本语料设置为只可读状态。只有Owner权限的用户可对此进行再次更改             |
 | 问题    | None | Everyone  | !问题 `QQ号`    | False        | 回答一些乱七八糟的问题，如果有语料默认使用语料，如果没有将会尝试回答 |
 | 移除语料  | None | whitelist | !移除语料 `str`  | False        | 移除已添加的语料                           |
 | 语料查询  | None | Everyone  | !语料查询 `str`  | False        | 查询已添加语料                            |
