@@ -108,6 +108,7 @@
 | 色图      | None        | Everyone  | !色图 `str`                | False        | 根据关键词搜索色图                           |
 | 嘴臭一个    | 骂我、你再骂、小嘴抹蜜 | Everyone  | !嘴臭一个                    | False        | 机器人嘴臭                               |
 | 彩虹屁     | 拍个马屁、舔TA    | Everyone  | !彩虹屁 `Optional: [CQ:at]` | False        | 发送彩虹屁信息，如果有at人，会at那个人然后发彩虹屁信息       |
+| 方舟十连      | None        | Everyone  | !方舟十连                      | False        | 没有黑幕的10连明日方舟抽卡模拟                     |
 | 下源      | None        | Everyone  | !下源                      | False        | 下载所提供的YouTube视频                     |
 
 ### 自动功能
