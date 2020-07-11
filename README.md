@@ -50,7 +50,7 @@
 |     | 其他用名 | 使用权限     | 使用方法 | ifDeprecated | 备注                                |
 | --- | ---- | -------- | ---- | ------------ | --------------------------------- |
 | 赛马  | None | Everyone | !赛马  | True         | 因为嫌太烦所以deprecated了w               |
-| 比大小 | None | Everyone | !比大小 | True         | 因为嫌太烦所以deprecated了w，需要两个玩家。       |
+| 比大小 | None | Everyone | !比大小 | False         | 需要两个玩家。       |
 | 轮盘赌 | None | Everyone | !轮盘赌 | True         | 因为嫌太烦所以deprecated了w。如果机器人有权限会禁言输家 |
 | 转轮  | None | Everyone | !转轮  | True         | Change random seed.               |
 
