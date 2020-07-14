@@ -110,6 +110,7 @@
 | 彩虹屁     | 拍个马屁、舔TA    | Everyone  | !彩虹屁 `Optional: [CQ:at]` | False        | 发送彩虹屁信息，如果有at人，会at那个人然后发彩虹屁信息       |
 | 方舟十连      | None        | Everyone  | !方舟十连                      | False        | 没有黑幕的10连明日方舟抽卡模拟                     |
 | 下源      | None        | Everyone  | !下源                      | False        | 下载所提供的YouTube视频                     |
+| 统计      | None        | Everyone  | !统计                      | False        | 会查找使用指令用户的一些功能数据。                     |
 
 ### 自动功能
 |         | 备注 |
