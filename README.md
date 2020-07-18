@@ -26,6 +26,7 @@
 | 语料查询  | None | Everyone  | !语料查询 `str`  | False        | 查询已添加语料                            |
 | ban   | None | whitelist | !ban `QQ号`   | False        | 禁用用户使用某些功能                         |
 | unban | None | whitelist | !unban `QQ号` | False        | 启用被禁用用户使用某些功能                      |
+| 添加监控词 | None | Owner | !添加监控词 `str` | False | 添加色图功能的监控关键词 |
 
 ### 闲聊类
 
