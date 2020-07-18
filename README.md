@@ -94,7 +94,7 @@
 | 来个老婆    | None        | Everyone  | !来个老婆                    | False        | AI生成一个不存在的动漫角色                      |
 | shadiao | 沙雕图、来一张沙雕图  | Everyone  | !沙雕图                     | False        | 发送一个网上瞎找的沙雕图                        |
 | PCR     | None        | Everyone  | !PCR                     | False        | 发出最新的PCR讯息                          |
-| 你群有多色   | None        | Everyone  | !你群有多色                   | False        | 统计`色图`和`验车`功能在群里用了多少次               |
+| 你群有多色   | None        | Everyone  | !你群有多色                   | False        | 统计`色图`和`验车`等功能在群里用了多少次               |
 | 理智查询    | None        | Everyone  | !理智查询                    | False        | 看看还有多少理智                            |
 | 理智补充    | None        | Admin     | !理智补充                    | False        | 补充理智                                |
 | happy   | None        | Owner     | !happy                   | False        | 打开欢乐时光                              |
