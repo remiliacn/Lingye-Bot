@@ -80,7 +80,7 @@
 | 日语词典   | None | Everyone | !日语词典 `str`   | True         | 可能用不了了。查日语词用的      |
 | 最新地震   | None | Everyone | !最新地震         | False        | 最新的地震信息获取          |
 | 日日释义   | None | Everyone | !日日释义 `str`   | True         | 可能用不了了。查日语词用的      |
-| 注音     | None | Everyone | !注音 `str`     | False        | 对汉字注罗马音            |
+| 注音     | None | Everyone | !注音 `str`     | True        | 对汉字注罗马音，好像API出问题用不了了            |
 | 释义nico | None | Everyone | !释义nico `str` | False        | 查询nico百科的解释        |
 | 周公解梦   | None | Everyone | !周公解梦 `str`   | True         | 可能用不了了             |
 | 反码     | None | Everyone | !反码 `str`     | False        | 返回CQ码（如果用的话）       |
@@ -112,6 +112,7 @@
 | 方舟十连      | None        | Everyone  | !方舟十连                      | False        | 没有黑幕的10连明日方舟抽卡模拟                     |
 | 下源      | None        | Everyone  | !下源                      | False        | 下载所提供的YouTube视频                     |
 | 统计      | None        | Everyone  | !统计                      | False        | 会查找使用指令用户的一些功能数据。                     |
+| ghs      | None        | Everyone  | !ghs                      | False        | 发送随机色图。                     |
 
 ### 自动功能
 |         | 备注 |
