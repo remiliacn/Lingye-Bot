@@ -8,6 +8,8 @@
 
 另外感谢[nonebot](https://github.com/nonebot)以及[python-aiocqhttp](https://github.com/cqmoe/python-aiocqhttp)的制作者[RichardChien](https://github.com/richardchien)的辛苦奉献！
 
+项目将在2020-08-13停止。
+
 ## 指令大全
 
 ### 权限类
