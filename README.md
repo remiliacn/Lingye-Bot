@@ -6,9 +6,7 @@
 
 机器人使用Python 3编写，使用CoolQ作为框架。
 
-另外感谢[nonebot](https://github.com/nonebot)以及[python-aiocqhttp](https://github.com/cqmoe/python-aiocqhttp)的制作者[RichardChien](https://github.com/richardchien)的辛苦奉献！
-
-项目将在2020-08-13停止。
+正在使用dalao写的框架，所以暂时还能用233
 
 ## 指令大全
 
@@ -37,7 +35,7 @@
 | ?        | ？           | Everyone | !?        | False        | 无聊添加的，一般是用于测试机器人是不是死锁了    |
 | 你好       | None        | Everyone | !你好       | False        | 没啥用……就是写着玩                |
 | 内鬼       | None        | Everyone | !内鬼       | False        | 没啥用……就是写着玩。随机回答你是内鬼或者不是xD |
-| 生草       | None        | Everyone | !生草       | False        | 发一条Vtuber的生草语音            |
+| 生草       | None        | Everyone | !生草       | True        | 发一条Vtuber的生草语音，暂时未提供语音类支持。            |
 | 我什么都不行   | 流泪猫猫头、什么都不行 | Everyone | !我什么都不行   | False        | 发一张流泪猫猫头的图片               |
 | 威胁       | None        | Everyone | !威胁       | False        | 威胁梗表情包                    |
 | 恰柠檬      | 吃柠檬         | Everyone | !恰柠檬      | False        | 发一张吃柠檬的表情包                |
