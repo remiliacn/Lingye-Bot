@@ -10,6 +10,8 @@
 
 本机器人的测试群：`950167209`
 
+项目以开源！请使用issue来汇报问题！https://github.com/remiliacn/qqBot
+
 ## 指令大全
 
 ### 权限类
