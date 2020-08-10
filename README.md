@@ -119,6 +119,8 @@
 | 下源      | None        | Everyone  | !下源                      | False        | 下载所提供的YouTube视频                     |
 | 统计      | None        | Everyone  | !统计                      | False        | 会查找使用指令用户的一些功能数据。                     |
 | ghs      | None        | Everyone  | !ghs                      | False        | 发送随机色图。                     |
+| 添加语录      | None        | Everyone  | ！添加语录 `Any`                     | False        | 添加群语录（群内只读）                    |
+| 语录      | 你群语录        | Everyone  | !语录                      | False        | 发送随机已保存本群语录                |
 
 ### 自动功能
 |         | 备注 |
