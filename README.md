@@ -17,7 +17,7 @@
 灵夜机器人的大部分功能使用了`数据收集`接口。该接口将会被用于用户行为分析，并对不常用的功能进行改良或者废除。使用本机器的任何指令将默许为您同意本声明，并愿意提供您的***QQ号、QQ昵称、以及使用命令时的参数***用于数据分析。您的任何敏感信息在没有同意的情况下将不会被公开（如年龄、性别、聊天记录等）。
 
 数据采集部分源码：
-https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.py#L55-L86
+https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.py#L67-L98
 
 另外请注意，使用以下指令可能会使您的敏感信息泄露，请谨慎使用：
 * ！你群语录
