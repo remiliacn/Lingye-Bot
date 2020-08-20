@@ -134,6 +134,7 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | ghs      | None        | Everyone  | !ghs                      | False        | 发送随机色图。                     |
 | 添加语录      | None        | Everyone  | !添加语录 `Any`                     | False        | 添加群语录（群内只读）                    |
 | 语录      | 你群语录        | Everyone  | !语录                      | False        | 发送随机已保存本群语录                |
+| 清空语录      | None        | Owner  | !清空语录 `qqGroup`                      | False        | 清除群组的所有语录                |
 | 方舟UP      | 方舟up        | Admin  | !方舟UP `干员名 星级`                     | False        | 设定卡池UP                    |
 | 方舟UP重置      | 方舟up重置        | Admin  | !方舟UP重置                    | False        | 清除目前UP的卡池内容                   |
 | 添加干员      | None        | Admin  | !添加干员 `干员名 星级`                     | False        | 添加新的干员                 |
