@@ -80,31 +80,16 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | ---- | ------ | -------- | ------------- | ------------ | ----------- |
 | b站话题 | bTopic | Everyone | !bTopic `str` | False        | 使用关键词查询B站话题 |
 
-### 工作类
-
-|         | 其他用名 | 使用权限     | 使用方法     | if_deprecated | 备注                          |
-| ------- | ---- | -------- | -------- | ------------ | --------------------------- |
-| 添加任务    | None | Admin    | !添加任务    | False        | 添加一个按时提醒的任务                 |
-| 删除任务    | None | Admin    | !删除任务    | False        | 移除一个按时提醒的任务                 |
-| 标记完成    | None | Admin    | !标记完成    | False        | 标记一个任务完成，该任务将不会再被提醒         |
-| 移除staff | None | Admin    | !移除staff | False        | 移除一个负责该任务的人                 |
-| 查询任务    | None | Everyone | !查询任务    | False        | Print unfinished job detail |
-
 ### 帮助类
 
 |        | 其他用名 | 使用权限     | 使用方法          | if_deprecated | 备注                 |
 | ------ | ---- | -------- | ------------- | ------------ | ------------------ |
 | help   | None | Everyone | !help         | False        | 发送该文档所在网址          |
 | 翻译     | None | Everyone | !翻译 `str`     | False        | 翻译文字到中文，或者翻译到英文和日文 |
-| 日语词典   | None | Everyone | !日语词典 `str`   | True         | 可能用不了了。查日语词用的      |
 | 最新地震   | None | Everyone | !最新地震         | False        | 最新的地震信息获取          |
-| 日日释义   | None | Everyone | !日日释义 `str`   | True         | 可能用不了了。查日语词用的      |
-| 注音     | None | Everyone | !注音 `str`     | True        | 对汉字注罗马音，好像API出问题用不了了            |
 | 释义nico | None | Everyone | !释义nico `str` | False        | 查询nico百科的解释        |
-| 周公解梦   | None | Everyone | !周公解梦 `str`   | True         | 可能用不了了             |
 | 反码     | None | Everyone | !反码 `str`     | False        | 返回CQ码（如果用的话）       |
 | 好好说话   | None | Everyone | !好好说话 `str`   | False        | 查询缩写意味             |
-| 查车票    | None | Everyone | !查车票          | True         | 在12306里查车票信息       |
 
 ### 沙雕娱乐功能
 
@@ -118,7 +103,6 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | 理智补充    | None        | Admin     | !理智补充                    | False        | 补充理智                                |
 | happy   | None        | Owner     | !happy                   | False        | 打开欢乐时光                              |
 | 设置R18   | None        | Whitelist | !设置R18                   | False        | 开启或关闭`色图`功能的R18发送功能                 |
-| 设置撤回    | None        | Everyone  | !设置撤回                    | True         | 设置要多久才撤回。现在是和跟推功能一起撤回的所以deprecated。 |
 | 掉落查询    | None        | Everyone  | !掉落查询 `str`              | False        | 查询掉落物在PCR游戏中的掉落关卡                   |
 | 娱乐开关    | None        | Admin     | !娱乐开关                    | False        | 全局娱乐开关                              |
 | 色图状态查询  | None        | Admin     | !色图状态查询                  | False        | 查询色图功能是否在本群开放 Override: `设置色图禁用`    |
@@ -140,7 +124,7 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | 添加干员      | None        | Admin  | !添加干员 `干员名 星级`                     | False        | 添加新的干员                 |
 | 说     | None        | Admin  | !说 `str`                     | False        | 使用tts功能将文字转化为语音发出                |
 | 搜图      | None        | Admin  | !搜图 `图片`                     | False        | 使用SAUCEMAO服务逆搜索图片出处 （也可以回复消息并输入搜图）                 |
-| 图片识别 | None | Everyone | !图片识别 `图片` | False | OCR识别图片内文字（支持多语种）
+| 图片识别 | None | Everyone | !图片识别 `图片` | False | OCR识别图片内文字（支持多语种） | 
 
 ### 自动功能
 |         | 备注 |
