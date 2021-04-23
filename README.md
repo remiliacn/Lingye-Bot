@@ -122,8 +122,8 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | 方舟UP      | 方舟up        | Admin  | !方舟UP `干员名 星级`                     | False        | 设定卡池UP                    |
 | 方舟UP重置      | 方舟up重置        | Admin  | !方舟UP重置                    | False        | 清除目前UP的卡池内容                   |
 | 添加干员      | None        | Admin  | !添加干员 `干员名 星级`                     | False        | 添加新的干员                 |
-| 说     | None        | Admin  | !说 `str`                     | False        | 使用tts功能将文字转化为语音发出                |
-| 搜图      | None        | Admin  | !搜图 `图片`                     | False        | 使用SAUCEMAO服务逆搜索图片出处 （也可以回复消息并输入搜图）                 |
+| 说     | None        | Everyone  | !说 `str`                     | False        | 使用tts功能将文字转化为语音发出                |
+| 搜图      | None        | Everyone  | !搜图 `图片`                     | False        | 使用SAUCEMAO服务逆搜索图片出处 （也可以回复消息并输入搜图）                 |
 | 图片识别 | None | Everyone | !图片识别 `图片` | False | OCR识别图片内文字（支持多语种） | 
 
 ### 自动功能
