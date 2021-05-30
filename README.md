@@ -54,7 +54,7 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | ?        | ？           | Everyone | !?        | False        | 无聊添加的，一般是用于测试机器人是不是死锁了    |
 | 你好       | None        | Everyone | !你好       | False        | 没啥用……就是写着玩                |
 | 内鬼       | None        | Everyone | !内鬼       | False        | 没啥用……就是写着玩。随机回答你是内鬼或者不是xD |
-| 生草       | None        | Everyone | !生草       | True        | 发一条Vtuber的生草语音，暂时未提供语音类支持。            |
+| 生草       | None        | Everyone | !生草       | True        | 发一条Vtuber的生草语音。          |
 | 我什么都不行   | 流泪猫猫头、什么都不行 | Everyone | !我什么都不行   | False        | 发一张流泪猫猫头的图片               |
 | 威胁       | None        | Everyone | !威胁       | False        | 威胁梗表情包                    |
 | 恰柠檬      | 吃柠檬         | Everyone | !恰柠檬      | False        | 发一张吃柠檬的表情包                |
@@ -85,7 +85,7 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 |        | 其他用名 | 使用权限     | 使用方法          | if_deprecated | 备注                 |
 | ------ | ---- | -------- | ------------- | ------------ | ------------------ |
 | help   | None | Everyone | !help         | False        | 发送该文档所在网址          |
-| 翻译     | None | Everyone | !翻译 `str`     | False        | 翻译文字到中文，或者翻译到英文和日文 |
+| 翻译     | None | Everyone | !翻译 `str`     | True        | 翻译文字到中文，或者翻译到英文和日文。改天修 |
 | 最新地震   | None | Everyone | !最新地震         | False        | 最新的地震信息获取          |
 | 释义nico | None | Everyone | !释义nico `str` | False        | 查询nico百科的解释        |
 | 反码     | None | Everyone | !反码 `str`     | False        | 返回CQ码（如果用的话）       |
@@ -123,6 +123,7 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | 方舟UP重置      | 方舟up重置        | Admin  | !方舟UP重置                    | False        | 清除目前UP的卡池内容                   |
 | 添加干员      | None        | Admin  | !添加干员 `干员名 星级`                     | False        | 添加新的干员                 |
 | 说     | None        | Everyone  | !说 `str`                     | False        | 使用tts功能将文字转化为语音发出                |
+| 仓库搜索     | None        | Everyone  | !仓库搜索 `str`                     | False        | 查里番本子之类的功能。用了就知道了（                |
 | 搜图      | None        | Everyone  | !搜图 `图片`                     | False        | 使用SAUCEMAO服务逆搜索图片出处 （也可以回复消息并输入搜图）                 |
 | 图片识别 | None | Everyone | !图片识别 `图片` | False | OCR识别图片内文字（支持多语种） | 
 
@@ -131,6 +132,5 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | ------- | ----------------------------------- |
 | getTweet | 自动跟推 |
 | forDownload | 自动下源，代码请见[这里](https://github.com/remiliacn/Vtuber-YouTube) |
-| getPCRInfo | 自动查询PCR消息 |
 | youtubeNotify | 如果下好了视频提醒 |
 | fillSanity | 每50秒补充一次理智 |
