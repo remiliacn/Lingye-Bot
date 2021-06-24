@@ -79,6 +79,8 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 |      | 其他用名   | 使用权限     | 使用方法          | if_deprecated | 备注          |
 | ---- | ------ | -------- | ------------- | ------------ | ----------- |
 | b站话题 | bTopic | Everyone | !bTopic `str` | False        | 使用关键词查询B站话题 |
+| 虚拟货币 | - | Everyone | !虚拟货币 `str` | False        | OKEx查询虚拟货币价格 |
+| K线 | 股票 | Everyone | !K线 `str` | False        | 查询股票K线图 |
 
 ### 帮助类
 
