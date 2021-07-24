@@ -136,3 +136,20 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | forDownload | 自动下源，代码请见[这里](https://github.com/remiliacn/Vtuber-YouTube) |
 | youtubeNotify | 如果下好了视频提醒 |
 | fillSanity | 每50秒补充一次理智 |
+
+### 自然语言处理
+
+1. 使用正则表达式判定用户发出的句子是否为全部重复字符或为回文句
+   * 回文句判定条件：
+      * `text_string == text_string[::-1] and len(text_string) > 5`
+   * 全部重复判定条件：
+      * `re.fullmatch(r'^(.*?)\1+$', text_string) and repeat_count >= 3`
+
+2. 提炼问句
+    * 大概思路：
+      * `re.match(r'(.*?)是个?(什么|啥)', text_string)`
+      * 提取Group1内容
+      * 如果Group1内容较少，直接查询
+      * 如果Group1是句子，进行中文分词，并加入副词“是”来指定最后一个名词位置
+      * 搜索最后一个名词的定义 
+     
