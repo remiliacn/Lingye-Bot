@@ -109,7 +109,7 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | 嘴臭一个    | 骂我、你再骂、小嘴抹蜜 | Everyone  | !嘴臭一个 `Optional: [CQ:at]`     | False        | 机器人嘴臭                               |
 | 彩虹屁     | 拍个马屁、舔TA    | Everyone  | !彩虹屁 `Optional: [CQ:at]` | False        | 发送彩虹屁信息，如果有at人，会at那个人然后发彩虹屁信息       |
 | 方舟十连      | None        | Everyone  | !方舟十连                      | False        | 没有黑幕的10连明日方舟抽卡模拟                     |
-| 方舟限定      | None        | Admin  | !方舟限定 `开|关`                   | False        | 将本次方舟卡池的UP率改为限定卡池UP率                     |
+| 方舟限定      | None        | Admin  | !方舟限定 `开或关`                   | False        | 将本次方舟卡池的UP率改为限定卡池UP率                     |
 | 下源      | None        | Everyone  | !下源                      | False        | 下载所提供的YouTube视频                     |
 | 统计      | None        | Everyone  | !统计                      | False        | 会查找使用指令用户的一些功能数据。                     |
 | ghs      | None        | Everyone  | !ghs                      | False        | 发送随机色图。                     |
