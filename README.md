@@ -78,7 +78,6 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 
 |      | 其他用名   | 使用权限     | 使用方法          | if_deprecated | 备注          |
 | ---- | ------ | -------- | ------------- | ------------ | ----------- |
-| b站话题 | bTopic | Everyone | !bTopic `str` | False        | 使用关键词查询B站话题 |
 | 虚拟货币 | - | Everyone | !虚拟货币 `str` | False        | OKEx查询虚拟货币价格 |
 | K线 | 股票 | Everyone | !K线 `str` | False        | 查询股票K线图 |
 
@@ -87,9 +86,6 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 |        | 其他用名 | 使用权限     | 使用方法          | if_deprecated | 备注                 |
 | ------ | ---- | -------- | ------------- | ------------ | ------------------ |
 | help   | None | Everyone | !help         | False        | 发送该文档所在网址          |
-| 翻译     | None | Everyone | !翻译 `str`     | True        | 翻译文字到中文，或者翻译到英文和日文。改天修 |
-| 最新地震   | None | Everyone | !最新地震         | False        | 最新的地震信息获取          |
-| 释义nico | None | Everyone | !释义nico `str` | False        | 查询nico百科的解释        |
 | 反码     | None | Everyone | !反码 `str`     | False        | 返回CQ码（如果用的话）       |
 | 好好说话   | None | Everyone | !好好说话 `str`   | False        | 查询缩写意味             |
 
@@ -99,7 +95,6 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | ------- | ----------- | --------- | ------------------------ | ------------ | ----------------------------------- |
 | 来个老婆    | None        | Everyone  | !来个老婆                    | False        | AI生成一个不存在的动漫角色                      |
 | shadiao | 沙雕图、来一张沙雕图  | Everyone  | !沙雕图                     | False        | 发送一个网上瞎找的沙雕图                        |
-| PCR     | None        | Everyone  | !PCR                     | False        | 发出最新的PCR讯息                          |
 | 你群有多色   | None        | Everyone  | !你群有多色                   | False        | 统计`色图`和`验车`等功能在群里用了多少次               |
 | 理智查询    | None        | Everyone  | !理智查询                    | False        | 看看还有多少理智                            |
 | 理智补充    | None        | Admin     | !理智补充                    | False        | 补充理智                                |
@@ -107,14 +102,14 @@ https://github.com/remiliacn/qqBot/blob/master/awesome/adminControl/group_admin.
 | 设置R18   | None        | Whitelist | !设置R18                   | False        | 开启或关闭`色图`功能的R18发送功能                 |
 | 掉落查询    | None        | Everyone  | !掉落查询 `str`              | False        | 查询掉落物在PCR游戏中的掉落关卡                   |
 | 娱乐开关    | None        | Admin     | !娱乐开关                    | False        | 全局娱乐开关                              |
-| 色图状态查询  | None        | Admin     | !色图状态查询                  | False        | 查询色图功能是否在本群开放 Override: `设置色图禁用`    |
-| 设置色图禁用  | None        | Admin     | !设置色图禁用 `qqGroup`        | False        | 关闭一个群的色图功能 Override: `娱乐开关`         |
-| 删除色图禁用  | None        | Admin     | !删除色图禁用 `qqGroup`        | False        | 打开一个群的色图功能 Override: `娱乐开关`         |
+| 色图状态查询  | None        | Admin     | !色图状态查询                  | False        | 查询色图功能是否在本群开放  |
+| 设置色图禁用  | None        | Admin     | !设置色图禁用 `qqGroup`        | False        | 关闭或打开一个群的色图功能 Override: `娱乐开关`         |
 | 验车      | None        | Everyone  | !验车 `str`                | False        | 根据番号获取AV信息                          |
 | 色图      | None        | Everyone  | !色图 `str`                | False        | 根据关键词搜索色图                           |
 | 嘴臭一个    | 骂我、你再骂、小嘴抹蜜 | Everyone  | !嘴臭一个 `Optional: [CQ:at]`     | False        | 机器人嘴臭                               |
 | 彩虹屁     | 拍个马屁、舔TA    | Everyone  | !彩虹屁 `Optional: [CQ:at]` | False        | 发送彩虹屁信息，如果有at人，会at那个人然后发彩虹屁信息       |
 | 方舟十连      | None        | Everyone  | !方舟十连                      | False        | 没有黑幕的10连明日方舟抽卡模拟                     |
+| 方舟限定      | None        | Admin  | !方舟限定 `开|关`                   | False        | 将本次方舟卡池的UP率改为限定卡池UP率                     |
 | 下源      | None        | Everyone  | !下源                      | False        | 下载所提供的YouTube视频                     |
 | 统计      | None        | Everyone  | !统计                      | False        | 会查找使用指令用户的一些功能数据。                     |
 | ghs      | None        | Everyone  | !ghs                      | False        | 发送随机色图。                     |
