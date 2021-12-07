@@ -4,10 +4,6 @@
 
 机器人使用Python 3编写，使用CoolQ作为框架。
 
-正在使用dalao写的框架，所以暂时还能用233。
-
-本机器人的测试群：`950167209`
-
 项目已开源！请使用issue来汇报问题！https://github.com/remiliacn/qqBot
 
 ## 声明
