@@ -96,8 +96,7 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 设置R18   | None        | Whitelist | !设置R18                   | False        | 开启或关闭`色图`功能的R18发送功能                 |
 | 掉落查询    | None        | Everyone  | !掉落查询 `str`              | False        | 查询掉落物在PCR游戏中的掉落关卡                   |
 | 娱乐开关    | None        | Admin     | !娱乐开关                    | False        | 全局娱乐开关                              |
-| 色图状态查询  | None        | Admin     | !色图状态查询                  | False        | 查询色图功能是否在本群开放  |
-| 设置色图禁用  | None        | Admin     | !设置色图禁用 `qqGroup`        | False        | 关闭或打开一个群的色图功能 Override: `娱乐开关`         |
+| 设置色图禁用  | None        | Admin     | !设置色图禁用 `qqGroup` `开 or 关`        | False        | 关闭或打开一个群的色图功能 Override: `娱乐开关`         |
 | 验车      | None        | Everyone  | !验车 `str`                | False        | 根据番号获取AV信息                          |
 | 色图      | None        | Everyone  | !色图 `str`                | False        | 根据关键词搜索色图                           |
 | 嘴臭一个    | 骂我、你再骂、小嘴抹蜜 | Everyone  | !嘴臭一个 `Optional: [CQ:at]`     | False        | 机器人嘴臭                               |
@@ -106,7 +105,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 方舟限定      | None        | Admin  | !方舟限定 `开或关`                   | False        | 将本次方舟卡池的UP率改为限定卡池UP率                     |
 | 下源      | None        | Everyone  | !下源                      | False        | 下载所提供的YouTube视频                     |
 | 统计      | None        | Everyone  | !统计                      | False        | 会查找使用指令用户的一些功能数据。                     |
-| ghs      | None        | Everyone  | !ghs                      | False        | 发送随机色图。                     |
 | 添加语录      | None        | Everyone  | !添加语录 `Any`                     | False        | 添加群语录（群内只读）                    |
 | 语录      | 你群语录        | Everyone  | !语录                      | False        | 发送随机已保存本群语录                |
 | 清空语录      | None        | Owner  | !清空语录 `qqGroup`                      | False        | 清除群组的所有语录                |
