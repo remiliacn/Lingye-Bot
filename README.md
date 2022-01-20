@@ -25,7 +25,7 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 |       | 其他用名 | 使用权限      | 使用方法         | if_deprecated | 备注                                 |
 | --------- | ---- | --------- | ------------ | ------------ | ---------------------------------- |
 | ！购买 | None | Everyone     | !购买 `股票序号/缩写/中文` `数量`  | False        | None                               |
-| ！出售 | None | Everyone     | !出售 `股票序号/缩写/中文` `数量`  | False        | None                               |
+| ！卖出 | None | Everyone     | !出售 `股票序号/缩写/中文` `数量`  | False        | None                               |
 | ！持仓 | None | Everyone     | !持仓  | False        | None                               |
 | ！排行榜 | 龙虎榜 | Everyone     | !龙虎榜  | False        | None                               |
 
