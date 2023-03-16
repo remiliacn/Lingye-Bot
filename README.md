@@ -105,9 +105,7 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 掉落查询    | None        | Everyone  | !掉落查询 `str`              | False        | 查询掉落物在PCR游戏中的掉落关卡                   |
 | 娱乐开关    | None        | Admin     | !娱乐开关                    | False        | 全局娱乐开关                              |
 | 设置色图禁用  | None        | Admin     | !设置色图禁用 `qqGroup` `开 or 关`        | False        | 关闭或打开一个群的色图功能 Override: `娱乐开关`         |
-| 验车      | None        | Everyone  | !验车 `str`                | False        | 根据番号获取AV信息                          |
 | 色图      | None        | Everyone  | !色图 `str`                | False        | 根据关键词搜索色图                           |
-| 嘴臭一个    | 骂我、你再骂、小嘴抹蜜 | Everyone  | !嘴臭一个 `Optional: [CQ:at]`     | False        | 机器人嘴臭                               |
 | 彩虹屁     | 拍个马屁、舔TA    | Everyone  | !彩虹屁 `Optional: [CQ:at]` | False        | 发送彩虹屁信息，如果有at人，会at那个人然后发彩虹屁信息       |
 | 方舟十连      | None        | Everyone  | !方舟十连                      | False        | 没有黑幕的10连明日方舟抽卡模拟                     |
 | 方舟限定      | None        | Admin  | !方舟限定 `开或关`                   | False        | 将本次方舟卡池的UP率改为限定卡池UP率                     |
@@ -119,7 +117,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 方舟UP      | 方舟up        | Admin  | !方舟UP `干员名 星级`                     | False        | 设定卡池UP                    |
 | 方舟UP重置      | 方舟up重置        | Admin  | !方舟UP重置                    | False        | 清除目前UP的卡池内容                   |
 | 添加干员      | None        | Admin  | !添加干员 `干员名 星级`                     | False        | 添加新的干员                 |
-| 说     | None        | Everyone  | !说 `str`                     | False        | 使用tts功能将文字转化为语音发出                |
 | 仓库搜索     | None        | Everyone  | !仓库搜索 `str`                     | False        | 查里番本子之类的功能。用了就知道了（                |
 | 搜图      | None        | Everyone  | !搜图 `图片`                     | False        | 使用SAUCEMAO服务逆搜索图片出处 （也可以回复消息并输入搜图）                 |
 | 图片识别 | None | Everyone | !图片识别 `图片` | False | OCR识别图片内文字（支持多语种） | 
