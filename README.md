@@ -96,6 +96,7 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 |         | 其他用名        | 使用权限      | 使用方法                     | if_deprecated | 备注                                  |
 | ------- | ----------- | --------- | ------------------------ | ------------ | ----------------------------------- |
 | 来个老婆    | None        | Everyone  | !来个老婆                    | False        | AI生成一个不存在的动漫角色                      |
+| 灵夜    | None        | Everyone  | !灵夜                    | False        | 使用ChatGPT接口问问题，高级版的`！问题`指令                     |
 | shadiao | 沙雕图、来一张沙雕图  | Everyone  | !沙雕图                     | False        | 发送一个网上瞎找的沙雕图                        |
 | 你群有多色   | None        | Everyone  | !你群有多色                   | False        | 统计`色图`和`验车`等功能在群里用了多少次               |
 | 理智查询    | None        | Everyone  | !理智查询                    | False        | 看看还有多少理智                            |
