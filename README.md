@@ -118,7 +118,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 彩虹屁     | 拍个马屁、舔TA    | Everyone  | !彩虹屁 `Optional: [CQ:at]` | False        | 发送彩虹屁信息，如果有at人，会at那个人然后发彩虹屁信息       |
 | 方舟十连      | None        | Everyone  | !方舟十连                      | False        | 没有黑幕的10连明日方舟抽卡模拟                     |
 | 方舟限定      | None        | Admin  | !方舟限定 `开或关`                   | False        | 将本次方舟卡池的UP率改为限定卡池UP率                     |
-| 下源      | None        | Everyone  | !下源                      | False        | 下载所提供的YouTube视频                     |
 | 统计      | None        | Everyone  | !统计                      | False        | 会查找使用指令用户的一些功能数据。                     |
 | 添加语录      | None        | Everyone  | !添加语录 `Any`                     | False        | 添加群语录（群内只读）                    |
 | 语录      | 你群语录        | Everyone  | !语录                      | False        | 发送随机已保存本群语录                |
@@ -126,9 +125,7 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 方舟UP      | 方舟up        | Admin  | !方舟UP `干员名 星级`                     | False        | 设定卡池UP                    |
 | 方舟UP重置      | 方舟up重置        | Admin  | !方舟UP重置                    | False        | 清除目前UP的卡池内容                   |
 | 添加干员      | None        | Admin  | !添加干员 `干员名 星级`                     | False        | 添加新的干员                 |
-| 仓库搜索     | None        | Everyone  | !仓库搜索 `str`                     | False        | 查里番本子之类的功能。用了就知道了（                |
 | 搜图      | None        | Everyone  | !搜图 `图片`                     | False        | 使用SAUCEMAO服务逆搜索图片出处 （也可以回复消息并输入搜图）                 |
-| 图片识别 | None | Everyone | !图片识别 `图片` | False | OCR识别图片内文字（支持多语种） | 
 
 
 ### 自动功能
