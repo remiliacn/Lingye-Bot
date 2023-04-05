@@ -79,7 +79,7 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 
 |     | 其他用名 | 使用权限     | 使用方法 | if_deprecated | 备注                                |
 | --- | ---- | -------- | ---- | ------------ | --------------------------------- |
-| 赛马  | None | Everyone | !赛马 `int`  | False         | 就是……赛马               |
+| 赛马  | None | Everyone | !赛马 `int`  | False         | 就是……赛马（刷屏警告） |
 | 比大小 | None | Everyone | !比大小 | False         | 需要两个玩家。       |
 | 轮盘赌 | None | Everyone | !轮盘赌 | False         | 如果机器人有权限会禁言输家 |
 | 转轮  | None | Everyone | !转轮  | False         | Change random seed.               |
