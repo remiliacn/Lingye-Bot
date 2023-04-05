@@ -107,11 +107,8 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 灵夜    | None        | Everyone  | !灵夜                    | False        | 使用ChatGPT接口问问题，高级版的`！问题`指令                     |
 | shadiao | 沙雕图、来一张沙雕图  | Everyone  | !沙雕图                     | False        | 发送一个网上瞎找的沙雕图                        |
 | 你群有多色   | None        | Everyone  | !你群有多色                   | False        | 统计`色图`和`验车`等功能在群里用了多少次               |
-| 理智查询    | None        | Everyone  | !理智查询                    | False        | 看看还有多少理智                            |
-| 理智补充    | None        | Admin     | !理智补充                    | False        | 补充理智                                |
 | happy   | None        | Owner     | !happy                   | False        | 打开欢乐时光                              |
 | 设置R18   | None        | Whitelist | !设置R18                   | False        | 开启或关闭`色图`功能的R18发送功能                 |
-| 掉落查询    | None        | Everyone  | !掉落查询 `str`              | False        | 查询掉落物在PCR游戏中的掉落关卡                   |
 | 娱乐开关    | None        | Admin     | !娱乐开关                    | False        | 全局娱乐开关                              |
 | 设置色图禁用  | None        | Admin     | !设置色图禁用 `qqGroup` `开 or 关`        | False        | 关闭或打开一个群的色图功能 Override: `娱乐开关`         |
 | 色图      | None        | Everyone  | !色图 `str`                | False        | 根据关键词搜索色图                           |
@@ -134,7 +131,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | getTweet | 自动跟推 |
 | forDownload | 自动下源，代码请见[这里](https://github.com/remiliacn/Vtuber-YouTube) |
 | youtubeNotify | 如果下好了视频提醒 |
-| fillSanity | 每50秒补充一次理智 |
 
 ### 自然语言处理
 
