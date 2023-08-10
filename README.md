@@ -47,8 +47,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 移除信任  | None | Owner     | !移除信任 `QQ号`  | False        | None                               |
 | 添加管理  | None | Owner     | !添加管理 `QQ号`  | False        | None                               |
 | 删除管理  | None | Owner     | !删除管理 `QQ号`  | False        | None                               |
-| 救救bot | None | Everyone  | !救救bot `str` | True         | 目前被`我懂了`指令替代                       |
-| 救救孩子  | None | Everyone  | !救救孩子 `str`  | True         | 目前被`我懂了`指令替代                       |
 | 我懂了   | None | Owner     | !我懂了 `str`   | False        | 替代了原来的`救救孩子`和`救救bot`指令。如果输入为$，将会把本语料设置为只可读状态。只有Owner权限的用户可对此进行再次更改             |
 | 问题    | None | Everyone  | !问题 `QQ号`    | False        | 回答一些乱七八糟的问题，如果有语料默认使用语料，如果没有将会尝试回答 |
 | 移除语料  | None | whitelist | !移除语料 `str`  | False        | 移除已添加的语料                           |
@@ -56,8 +54,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | ban   | None | whitelist | !ban `QQ号`   | False        | 禁用用户使用某些功能                         |
 | unban | None | whitelist | !unban `QQ号` | False        | 启用被禁用用户使用某些功能                      |
 | 添加监控词 | None | Owner | !添加监控词 `str` | False | 添加色图功能的监控关键词 |
-| 跟推添加 | None | Admin | !跟推添加 `str` | False | 具体语法请使用本功能查看 |
-| 跟推移除 | None | Admin | !跟推移除 `str` | False | 具体语法请使用本功能查看 |
 
 ### 闲聊类 （不建议用，很烦）
 
@@ -66,7 +62,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | ?        | ？           | Everyone | !?        | False        | 无聊添加的，一般是用于测试机器人是不是死锁了    |
 | 你好       | None        | Everyone | !你好       | False        | 没啥用……就是写着玩                |
 | 内鬼       | None        | Everyone | !内鬼       | False        | 没啥用……就是写着玩。随机回答你是内鬼或者不是xD |
-| 生草       | None        | Everyone | !生草       | True        | 发一条Vtuber的生草语音。          |
 | 我什么都不行   | 流泪猫猫头、什么都不行 | Everyone | !我什么都不行   | False        | 发一张流泪猫猫头的图片               |
 | 威胁       | None        | Everyone | !威胁       | False        | 威胁梗表情包                    |
 | 恰柠檬      | 吃柠檬         | Everyone | !恰柠檬      | False        | 发一张吃柠檬的表情包                |
