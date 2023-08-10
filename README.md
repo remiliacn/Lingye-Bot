@@ -27,15 +27,17 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | ！在听啥 | 看看bot主人在听什么歌 |
 | ！切歌 | 给bot主人切歌，我也不知道我为啥要写这个23333 |
 | ！点歌 | 给bot主人点歌，同上，不知道为啥写了个这个功能（x |
-| ！灵夜 | ChatGPT的求助功能（支持markdown和LaTeX输出，有思想钢印） |
 
-### 虚拟盘交易系列 （好像多少有点问题xx）
+### 虚拟盘交易系列
 |       | 其他用名 | 使用权限      | 使用方法         | if_deprecated | 备注                                 |
 | --------- | ---- | --------- | ------------ | ------------ | ---------------------------------- |
 | ！购买 | None | Everyone     | !购买 `股票序号/缩写/中文` `数量`  | False        | None                               |
 | ！卖出 | None | Everyone     | !出售 `股票序号/缩写/中文` `数量`  | False        | None                               |
 | ！持仓 | None | Everyone     | !持仓  | False        | None                               |
 | ！排行榜 | 龙虎榜 | Everyone     | !龙虎榜  | False        | None                               |
+| ！商店 | None | Everyone | ！商店 `商品名（可选）` | False | 看一些群友上市的怪物品的价格|
+| ！买怪币 | None | Everyone | ！买怪币 `商品名 数量` | False | 购买一个群友上市的物品（数量小于0时为做空） |
+| ！卖怪币 | None | Everyone | ！卖怪币 `商品名 数量` | False | 卖出你持有的一个群友上市的物品 |
 
 ### 权限类
 
