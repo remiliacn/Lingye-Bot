@@ -28,16 +28,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | ！切歌 | 给bot主人切歌，我也不知道我为啥要写这个23333 |
 | ！点歌 | 给bot主人点歌，同上，不知道为啥写了个这个功能（x |
 
-### 虚拟盘交易系列
-|       | 其他用名 | 使用权限      | 使用方法         | if_deprecated | 备注                                 |
-| --------- | ---- | --------- | ------------ | ------------ | ---------------------------------- |
-| ！购买 | None | Everyone     | !购买 `股票序号/缩写/中文` `数量`  | False        | None                               |
-| ！卖出 | None | Everyone     | !出售 `股票序号/缩写/中文` `数量`  | False        | None                               |
-| ！持仓 | None | Everyone     | !持仓  | False        | None                               |
-| ！排行榜 | 龙虎榜 | Everyone     | !龙虎榜  | False        | None                               |
-| ！商店 | None | Everyone | ！商店 `商品名（可选）` | False | 看一些群友上市的怪物品的价格|
-| ！买怪币 | None | Everyone | ！买怪币 `商品名 数量` | False | 购买一个群友上市的物品（数量小于0时为做空） |
-| ！卖怪币 | None | Everyone | ！卖怪币 `商品名 数量` | False | 卖出你持有的一个群友上市的物品 |
 
 ### 权限类
 
@@ -49,8 +39,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 删除管理  | None | Owner     | !删除管理 `QQ号`  | False        | None                               |
 | 我懂了   | None | Owner     | !我懂了 `str`   | False        | 替代了原来的`救救孩子`和`救救bot`指令。如果输入为$，将会把本语料设置为只可读状态。只有Owner权限的用户可对此进行再次更改             |
 | 问题    | None | Everyone  | !问题 `QQ号`    | False        | 回答一些乱七八糟的问题，如果有语料默认使用语料，如果没有将会尝试回答 |
-| 移除语料  | None | whitelist | !移除语料 `str`  | False        | 移除已添加的语料                           |
-| 语料查询  | None | Everyone  | !语料查询 `str`  | False        | 查询已添加语料                            |
 | ban   | None | whitelist | !ban `QQ号`   | False        | 禁用用户使用某些功能                         |
 | unban | None | whitelist | !unban `QQ号` | False        | 启用被禁用用户使用某些功能                      |
 | 添加监控词 | None | Owner | !添加监控词 `str` | False | 添加色图功能的监控关键词 |
@@ -69,24 +57,15 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 不愧是你     | bksn        | Everyone | !不愧是你     | False        | 发一张不愧是你的表情图               |
 | 恰桃       | 恰peach      | Everyone | !恰桃       | False        | 发一张恰桃表情包                  |
 | 社保       | awsl        | Everyone | !社保       | False        | 发一张社保的表情包或者吐槽信息           |
-| votekick | None        | Everyone | !votekick | False        | 沙雕功能……                    |
 | otsukare | 辛苦了、おつかれ    | Everyone | !辛苦了      | False        | 发一张辛苦了的图                  |
 
 ### 游戏类
 
 |     | 其他用名 | 使用权限     | 使用方法 | if_deprecated | 备注                                |
 | --- | ---- | -------- | ---- | ------------ | --------------------------------- |
-| 赛马  | None | Everyone | !赛马 `int`  | False         | 就是……赛马（刷屏警告） |
 | 比大小 | None | Everyone | !比大小 | False         | 需要两个玩家。       |
 | 轮盘赌 | None | Everyone | !轮盘赌 | False         | 如果机器人有权限会禁言输家 |
 | 转轮  | None | Everyone | !转轮  | False         | Change random seed.               |
-
-### 应用类
-
-|      | 其他用名   | 使用权限     | 使用方法          | if_deprecated | 备注          |
-| ---- | ------ | -------- | ------------- | ------------ | ----------- |
-| 虚拟货币 | - | Everyone | !虚拟货币 `str` | False        | OKEx查询虚拟货币价格 |
-| K线 | 股票 | Everyone | !K线 `str` | False        | 查询股票K线图 |
 
 ### 帮助类
 
@@ -123,23 +102,8 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 ### 自动功能
 |         | 备注 |
 | ------- | ----------------------------------- |
-| getTweet | 自动跟推 |
-| forDownload | 自动下源，代码请见[这里](https://github.com/remiliacn/Vtuber-YouTube) |
-| youtubeNotify | 如果下好了视频提醒 |
+| get_bilibili_dynamic | 自动b站动态监控 |
+| check_bilibili_live | 自动b站开播监控 |
+| check_discord | 自动discord监控 |
 
-### 自然语言处理
-
-1. 使用正则表达式判定用户发出的句子是否为全部重复字符或为回文句
-   * 回文句判定条件：
-      * `text_string == text_string[::-1] and len(text_string) > 5`
-   * 全部重复判定条件：
-      * `re.fullmatch(r'^(.*?)\1+$', text_string) and repeat_count >= 3`
-
-2. 提炼问句
-    * 大概思路：
-      * `re.match(r'(.*?)是个?(什么|啥)', text_string)`
-      * 提取Group1内容
-      * 如果Group1内容较少，直接查询
-      * 如果Group1是句子，进行中文分词，并加入副词“是”来指定最后一个名词位置
-      * 搜索最后一个名词的定义 
      
