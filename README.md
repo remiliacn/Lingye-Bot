@@ -27,6 +27,8 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | ！在听啥 | 看看bot主人在听什么歌 |
 | ！切歌 | 给bot主人切歌，我也不知道我为啥要写这个23333 |
 | ！点歌 | 给bot主人点歌，同上，不知道为啥写了个这个功能（x |
+| ！灵夜 | 使用ChatGPT查询一些东西 |
+| @灵夜 `str` | 跟搭载了LLM的灵夜聊天 |
 
 
 ### 权限类
@@ -37,7 +39,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 移除信任  | None | Owner     | !移除信任 `QQ号`  | False        | None                               |
 | 添加管理  | None | Owner     | !添加管理 `QQ号`  | False        | None                               |
 | 删除管理  | None | Owner     | !删除管理 `QQ号`  | False        | None                               |
-| 我懂了   | None | Owner     | !我懂了 `str`   | False        | 替代了原来的`救救孩子`和`救救bot`指令。如果输入为$，将会把本语料设置为只可读状态。只有Owner权限的用户可对此进行再次更改             |
 | 问题    | None | Everyone  | !问题 `QQ号`    | False        | 回答一些乱七八糟的问题，如果有语料默认使用语料，如果没有将会尝试回答 |
 | ban   | None | whitelist | !ban `QQ号`   | False        | 禁用用户使用某些功能                         |
 | unban | None | whitelist | !unban `QQ号` | False        | 启用被禁用用户使用某些功能                      |
@@ -49,7 +50,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | -------- | ----------- | -------- | --------- | ------------ | ------------------------- |
 | ?        | ？           | Everyone | !?        | False        | 无聊添加的，一般是用于测试机器人是不是死锁了    |
 | 你好       | None        | Everyone | !你好       | False        | 没啥用……就是写着玩                |
-| 内鬼       | None        | Everyone | !内鬼       | False        | 没啥用……就是写着玩。随机回答你是内鬼或者不是xD |
 | 我什么都不行   | 流泪猫猫头、什么都不行 | Everyone | !我什么都不行   | False        | 发一张流泪猫猫头的图片               |
 | 威胁       | None        | Everyone | !威胁       | False        | 威胁梗表情包                    |
 | 恰柠檬      | 吃柠檬         | Everyone | !恰柠檬      | False        | 发一张吃柠檬的表情包                |
@@ -58,6 +58,13 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 恰桃       | 恰peach      | Everyone | !恰桃       | False        | 发一张恰桃表情包                  |
 | 社保       | awsl        | Everyone | !社保       | False        | 发一张社保的表情包或者吐槽信息           |
 | otsukare | 辛苦了、おつかれ    | Everyone | !辛苦了      | False        | 发一张辛苦了的图                  |
+
+### VUP & VTuber系列功能
+|          | 其他用名        | 使用权限     | 使用方法      | if_deprecated | 备注                        |
+| -------- | ----------- | -------- | --------- | ------------ | ------------------------- |
+| b站监控       | None        | Everyone | !b站监控 主播名 房间号 群号（可选）       | False        | 监控B站开播 | 
+| b站动态监控       | None        | Everyone | ！b站动态监控 用户名 用户UID 群号（可选）       | False        | 监控B站动态更新     |
+| 切片      | None        | Everyone | ！切片 Twitch用户名或VOD链接 起始时间戳（可选） 结束时间戳（可选） 文件另用名（可选）       | False        | Twitch切片    |
 
 ### 游戏类
 
@@ -80,22 +87,17 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 |         | 其他用名        | 使用权限      | 使用方法                     | if_deprecated | 备注                                  |
 | ------- | ----------- | --------- | ------------------------ | ------------ | ----------------------------------- |
 | 来个老婆    | None        | Everyone  | !来个老婆                    | False        | AI生成一个不存在的动漫角色                      |
-| shadiao | 沙雕图、来一张沙雕图  | Everyone  | !沙雕图                     | False        | 发送一个网上瞎找的沙雕图                        |
-| 你群有多色   | None        | Everyone  | !你群有多色                   | False        | 统计`色图`和`验车`等功能在群里用了多少次               |
+| 你群有多色   | None        | Everyone  | !你群有多色                   | False        | 统计`色图`等功能在群里用了多少次               |
 | 设置R18   | None        | Whitelist | !设置R18                   | False        | 开启或关闭`色图`功能的R18发送功能                 |
 | 娱乐开关    | None        | Admin     | !娱乐开关                    | False        | 全局娱乐开关                              |
 | 设置色图禁用  | None        | Admin     | !设置色图禁用 `qqGroup` `开 or 关`        | False        | 关闭或打开一个群的色图功能 Override: `娱乐开关`         |
 | 色图      | None        | Everyone  | !色图 `str`                | False        | 根据关键词搜索色图                           |
+| 看看XP      | None        | Everyone  | !看看XP              | False        | 看看自己最喜欢的关键字的色图或者自己P站收藏的色图                   |
 | 彩虹屁     | 拍个马屁、舔TA    | Everyone  | !彩虹屁 `Optional: [CQ:at]` | False        | 发送彩虹屁信息，如果有at人，会at那个人然后发彩虹屁信息       |
-| 方舟十连      | None        | Everyone  | !方舟十连                      | False        | 没有黑幕的10连明日方舟抽卡模拟                     |
-| 方舟限定      | None        | Admin  | !方舟限定 `开或关`                   | False        | 将本次方舟卡池的UP率改为限定卡池UP率                     |
 | 统计      | None        | Everyone  | !统计                      | False        | 会查找使用指令用户的一些功能数据。                     |
 | 添加语录      | None        | Everyone  | !添加语录 `Any`                     | False        | 添加群语录（群内只读）                    |
 | 语录      | 你群语录        | Everyone  | !语录                      | False        | 发送随机已保存本群语录                |
 | 清空语录      | None        | Owner  | !清空语录 `qqGroup`                      | False        | 清除群组的所有语录                |
-| 方舟UP      | 方舟up        | Admin  | !方舟UP `干员名 星级`                     | False        | 设定卡池UP                    |
-| 方舟UP重置      | 方舟up重置        | Admin  | !方舟UP重置                    | False        | 清除目前UP的卡池内容                   |
-| 添加干员      | None        | Admin  | !添加干员 `干员名 星级`                     | False        | 添加新的干员                 |
 | 搜图      | None        | Everyone  | !搜图 `图片`                     | False        | 使用SAUCEMAO服务逆搜索图片出处 （也可以回复消息并输入搜图）                 |
 
 
