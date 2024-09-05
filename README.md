@@ -16,8 +16,6 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 另外请注意，使用以下指令可能会使您的敏感信息泄露，请谨慎使用：
 * ！你群语录
 * ！添加语录
-* ！翻译
-* ！我懂了
 
 ## 指令大全
 
@@ -62,8 +60,8 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 ### VUP & VTuber系列功能
 |        | 其他用名 | 使用权限     | 使用方法                                              | if_deprecated | 备注       |
 |--------|------|----------|---------------------------------------------------|---------------|----------|
-| b站监控   | None | Everyone | !b站监控 主播名 房间号 群号（可选）                              | False         | 监控B站开播   | 
-| b站动态监控 | None | Everyone | ！b站动态监控 用户名 用户UID 群号（可选）                          | False         | 监控B站动态更新 |
+| b站监控   | None | ADMIN    | !b站监控 主播名 房间号 群号（可选）                              | False         | 监控B站开播   | 
+| b站动态监控 | None | ADMIN    | ！b站动态监控 用户名 用户UID 群号（可选）                          | False         | 监控B站动态更新 |
 | 切片     | None | Everyone | ！切片 Twitch用户名或VOD链接 起始时间戳（可选） 结束时间戳（可选） 文件另用名（可选） | False         | Twitch切片 |
 
 ### 游戏类
