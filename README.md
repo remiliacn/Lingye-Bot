@@ -37,7 +37,7 @@ https://github.com/remiliacn/qqBot/blob/03b3713d97de0c2bcdd4ad6e39b14f5ad7ff7d89
 | 移除信任  | None | Owner     | !移除信任 `QQ号`  | ✅           | None                               |
 | 添加管理  | None | Owner     | !添加管理 `QQ号`  | ✅           | None                               |
 | 删除管理  | None | Owner     | !删除管理 `QQ号`  | ✅           | None                               |
-| 问题    | None | Everyone  | !问题 `QQ号`    | ✅           | 回答一些乱七八糟的问题，如果有语料默认使用语料，如果没有将会尝试回答 |
+| 问题    | None | Everyone  | !问题 `QQ号`    | ✅           | 回答一些乱七八糟的问题，如果有语料默认使用语料，如果没有将会尝试回答。建议使用！灵夜功能，随时可能被删掉。 |
 | ban   | None | whitelist | !ban `QQ号`   | ✅           | 禁用用户使用某些功能                         |
 | unban | None | whitelist | !unban `QQ号` | ✅           | 启用被禁用用户使用某些功能                      |
 | 添加监控词 | None | Owner     | !添加监控词 `str` | ✅           | 添加色图功能的监控关键词                       |
